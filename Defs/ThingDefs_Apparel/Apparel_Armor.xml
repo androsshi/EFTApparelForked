@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="EFTArmorBase" ParentName="ArmorMachineableBase" Abstract="True">
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>ApparelArmor</li>
+    </thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+    </recipeMaker>
+    <apparel>
+       <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+    </apparel>
+  </ThingDef>
+
+  <!-- === Class 2 === -->
+  <ThingDef Name="EFTArmorC2Base" ParentName="EFTArmorBase" Abstract="True">
+    <statBases>
+      <Bulk>4.5</Bulk>
+      <WornBulk>2</WornBulk>
+      <WorkToMake>6000</WorkToMake>
+      <ArmorRating_Sharp>6</ArmorRating_Sharp>
+      <ArmorRating_Blunt>8</ArmorRating_Blunt>
+      <Insulation_Cold>6</Insulation_Cold>
+      <Insulation_Heat>10</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <Cloth>20</Cloth>
+      <Steel>40</Steel>
+    </costList>
+  </ThingDef>
+
+  <!-- == Module-3M == -->
+  <ThingDef ParentName="EFTArmorC2Base">
+    <defName>JDSTarkov_Module-3M</defName>
+    <label>Module-3M Armor</label>
+    <description>Light bulletproof vest of the second class of protection, used by private security companies and collection services.</description>
+    <graphicData>
+      <texPath>Things/ArmorVest/Module-3M/Module-3M_UI</texPath>
+    </graphicData>
+    <statBases>
+      <Mass>8</Mass>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>Things/ArmorVest/Module-3M/Module-3M</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+
+  <!-- == PACA Soft Armor == -->
+  <ThingDef ParentName="EFTArmorC2Base">
+    <defName>JDSTarkov_PACA_Soft_Armor</defName>
+    <label>PACA Soft Armor</label>
+    <description>Light but durable and reliable body armor protecting only the vital areas, fitted with Class II armor plates.</description>
+    <graphicData>
+      <texPath>Things/ArmorVest/PACA_Soft_Armor/PACA_Soft_Armor_UI</texPath>
+    </graphicData>
+    <statBases>
+      <Mass>7</Mass>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>Things/ArmorVest/PACA_Soft_Armor/PACA_Soft_Armor</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+
+  <!-- == 6B2 Armor == -->
+  <ThingDef ParentName="EFTArmorC2Base">
+    <defName>JDSTarkov_6B2_Armor</defName>
+    <label>6B2 Armor</label>
+    <description>Old army body armor from war times, mainly designed to protect against pistol bullets and explosion fragments.</description>
+    <graphicData>
+      <texPath>Things/ArmorVest/6B2_Armor/6B2_Armor_UI</texPath>
+    </graphicData>
+    <statBases>
+      <Mass>4.5</Mass>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>Things/ArmorVest/6B2_Armor/6B2_Armor</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+
+  <!-- === Class 3 === -->
+  <ThingDef Name="EFTArmorC3Base" ParentName="EFTArmorBase" Abstract="True">
+    <statBases>
+      <Bulk>6.5</Bulk>
+      <WornBulk>3</WornBulk>
+      <WorkToMake>9500</WorkToMake>
+      <ArmorRating_Sharp>10</ArmorRating_Sharp>
+      <ArmorRating_Blunt>18</ArmorRating_Blunt>
+      <Insulation_Cold>6</Insulation_Cold>
+      <Insulation_Heat>10</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <Cloth>30</Cloth>
+      <Steel>60</Steel>
+    </costList>
+  </ThingDef>
+
+  <!-- == MF UNTAR Armor == -->
+  <ThingDef ParentName="EFTArmorC3Base">
+    <defName>JDSTarkov_MF-UNTAR_Armor_Vest</defName>
+    <label>MF-UNTAR Armor Vest</label>
+    <description>Body armor used by UN soldiers during UNTAR mission.</description>
+    <graphicData>
+      <texPath>Things/ArmorVest/MF-UNTAR/MF-UNTAR_Armor_Vest_UI</texPath>
+    </graphicData>
+    <statBases>
+      <Mass>10</Mass>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>Things/ArmorVest/MF-UNTAR/MF-UNTAR</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+
+  <!-- == Zhuk-3 Press Armor == -->
+  <ThingDef ParentName="EFTArmorC3Base">
+    <defName>JDSTarkov_Zhuk-3_Press_Armor</defName>
+    <label>Zhuk-3 Press Armor</label>
+    <description>An armored vest protection for the journalists working in combat zones.</description>
+    <graphicData>
+      <texPath>Things/ArmorVest/Zhuk-3_Press_Armor/Zhuk-3_Press_Armor_UI</texPath>
+    </graphicData>
+    <statBases>
+      <Mass>5.2</Mass>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>Things/ArmorVest/Zhuk-3_Press_Armor/Zhuk-3_Press_Armor</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+
+  <!-- == 6B23-1 Armor == -->
+  <ThingDef ParentName="EFTArmorC3Base">
+    <defName>JDSTarkov_6B23-1_Armor</defName>
+    <label>6B23-1 Armor</label>
+    <description>Main armored vest for personnel of combat units of the ground forces, airborne troops, marines, etc.</description>
+    <graphicData>
+      <texPath>Things/ArmorVest/6B23-1_Armor/6B23-1_Armor_UI</texPath>
+    </graphicData>
+    <statBases>
+      <Mass>7.9</Mass>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>Things/ArmorVest/6B2_Armor/6B2_Armor</wornGraphicPath>
+      <bodyPartGroups>
+        <li>Neck</li>
+      </bodyPartGroups>
+    </apparel>
+  </ThingDef>
+
+  <!-- == BNTI Kirasa-N Armor == -->
+  <ThingDef ParentName="EFTArmorC3Base">
+    <defName>JDSTarkov_BNTI_Kirasa-N_Armor</defName>
+    <label>BNTI Kirasa-N Armor</label>
+    <description>The Kirasa N body armor is designed for the army and police special forces. The bulletproof vest provides circular protection of the human torso.</description>
+    <graphicData>
+      <texPath>Things/ArmorVest/BNTI_Kirasa-N_Armor/BNTI_Kirasa-N_Armor_UI</texPath>
+    </graphicData>
+    <statBases>
+      <Mass>4.1</Mass>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>Things/ArmorVest/BNTI_Kirasa-N_Armor/BNTI_Kirasa-N_Armor</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+
+  <!-- === Class 4 === -->
+  <ThingDef Name="EFTArmorC4Base" ParentName="EFTArmorBase" Abstract="True">
+    <statBases>
+      <Bulk>7</Bulk>
+      <WornBulk>3</WornBulk>
+      <WorkToMake>11000</WorkToMake>
+      <ArmorRating_Sharp>10</ArmorRating_Sharp>
+      <ArmorRating_Blunt>18</ArmorRating_Blunt>
+      <Insulation_Cold>6</Insulation_Cold>
+      <Insulation_Heat>10</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <Cloth>40</Cloth>
+      <Steel>60</Steel>
+    </costList>
+  </ThingDef>
+
+  <!-- == Highcoom Trooper TFO Armor == -->
+  <ThingDef ParentName="EFTArmorC4Base">
+    <defName>JDSTarkov_Highcom_Trooper_TFO_Armor</defName>
+    <label>Highcom Trooper TFO Armor</label>
+    <description>Plate vest from Highcom, popular among USEC PMCs.</description>
+    <graphicData>
+      <texPath>Things/ArmorVest/Highcom_Trooper_TFO_Armor/Highcom_Trooper_TFO_Armor_UI</texPath>
+    </graphicData>
+    <statBases>
+      <Mass>5</Mass>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>Things/ArmorVest/Highcom_Trooper_TFO_Armor/Highcom_Trooper_TFO_Armor</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+
+  <!-- == 6B13 Assault Armor == -->
+  <ThingDef ParentName="EFTArmorC4Base">
+    <defName>JDSTarkov_6B13_Assault_Armor</defName>
+    <label>6B13 Assault Armor</label>
+    <description>Main armored vest for personnel of combat units of the ground forces, airborne troops, marines, etc.</description>
+    <graphicData>
+      <texPath>Things/ArmorVest/6B13_Assault_Armor/6B13_Assault_Armor_UI</texPath>
+    </graphicData>
+    <statBases>
+      <Mass>10.5</Mass>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>Things/ArmorVest/6B13_Assault_Armor/6B13_Assault_Armor</wornGraphicPath>
+      <bodyPartGroups>
+        <li>Neck</li>
+      </bodyPartGroups>
+    </apparel>
+  </ThingDef>
+
+  <!-- == 6B23-2 Armor == -->
+  <ThingDef ParentName="EFTArmorC4Base">
+    <defName>JDSTarkov_6B23-2_Armor</defName>
+    <label>6B23-2 Armor</label>
+    <description>Main armored vest Zabralo-8 for personnel of combat units of the ground forces, airborne troops, marines, etc.</description>
+    <graphicData>
+      <texPath>Things/ArmorVest/6B23-2_Armor/6B23-2_Armor_UI</texPath>
+    </graphicData>
+    <statBases>
+      <Mass>7.2</Mass>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>Things/ArmorVest/6B23-2_Armor/6B23-2_Armor</wornGraphicPath>
+      <bodyPartGroups>
+        <li>Neck</li>
+      </bodyPartGroups>
+    </apparel>
+  </ThingDef>
+
+  <!-- === Class 5 === -->
+  <ThingDef Name="EFTArmorC5Base" ParentName="EFTArmorBase" Abstract="True">
+    <statBases>
+      <Bulk>7.5</Bulk>
+      <WornBulk>4</WornBulk>
+      <WorkToMake>13000</WorkToMake>
+      <ArmorRating_Sharp>14.5</ArmorRating_Sharp>
+      <ArmorRating_Blunt>26</ArmorRating_Blunt>
+      <Insulation_Cold>6</Insulation_Cold>
+      <Insulation_Heat>10</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <DevilstrandCloth>30</DevilstrandCloth>
+      <Steel>60</Steel>
+      <Plasteel>20</Plasteel>
+    </costList>
+  </ThingDef>
+
+  <!-- == FORT Redut-M Body Armor == -->
+  <ThingDef ParentName="EFTArmorC5Base">
+    <defName>JDSTarkov_FORT_Redut-M_Body_Armor</defName>
+    <label>FORT Redut-M Body Armor</label>
+    <description>Redut M is a modified version of the Redut well-proven body armor, which is in service of special units of the FSB. The vest is based on advanced technologies in the field of individual armor. Due to the optimized form of armor elements and the outer cover with a special damping-ventilation system.</description>
+    <graphicData>
+      <texPath>Things/ArmorVest/FORT_Redut-M_Body_Armor/FORT_Redut-M_Body_Armor_UI</texPath>
+    </graphicData>
+    <statBases>
+      <Mass>11.5</Mass>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>Things/ArmorVest/FORT_Redut-M_Body_Armor/FORT_Redut-M_Body_Armor</wornGraphicPath>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+    </apparel>
+  </ThingDef>
+
+  <!-- == 6B13 M Assault Armor == -->
+  <ThingDef ParentName="EFTArmorC5Base">
+    <defName>JDSTarkov_6B13_M_Assault_Armor</defName>
+    <label>6B13 M Assault Armor</label>
+    <description>Personally modified by Killa 6B13. Ceramic armored plates replaced with lightweight polyethylene plates</description>
+    <graphicData>
+      <texPath>Things/ArmorVest/6B13_M_Assault_Armor/6B13_M_Assault_Armor_UI</texPath>
+    </graphicData>
+    <statBases>
+      <Mass>7.5</Mass>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>Things/ArmorVest/6B13_M_Assault_Armor/6B13_M_Assault_Armor</wornGraphicPath>
+      <bodyPartGroups>
+        <li>Neck</li>
+      </bodyPartGroups>
+    </apparel>
+  </ThingDef>
+
+  <!-- == IOTV Gen 4 Armor == -->
+  <ThingDef ParentName="EFTArmorC5Base">
+    <defName>JDSTarkov_IOTV_Gen4_Armor</defName>
+    <label>IOTV Gen4 Armor</label>
+    <description>The Improved Outer Tactical Vest (IOTV) Gen IV is designed to permit maximum freedom of movement required to assume correct firing positions with the agility to execute and maneuver tasks.</description>
+    <graphicData>
+      <texPath>Things/ArmorVest/IOTV_Gen4_Armor/IOTV_Gen4_Armor_UI</texPath>
+    </graphicData>
+    <statBases>
+      <Mass>12</Mass>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>Things/ArmorVest/IOTV_Gen4_Armor/IOTV_Gen4_Armor</wornGraphicPath>
+      <bodyPartGroups>
+        <li>Neck</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+    </apparel>
+  </ThingDef>
+
+  <!-- == BNTI Gzhel-K Armor == -->
+  <ThingDef ParentName="EFTArmorC5Base">
+    <defName>JDSTarkov_BNTI_Gzhel-K_Armor</defName>
+    <label>BNTI Gzhel-K Armor</label>
+    <description>The Gzhel assault bulletproof vest is designed for assault units of the Ministry of Internal Affairs and other law enforcement agencies.</description>
+    <graphicData>
+      <texPath>Things/ArmorVest/BNTI_Gzhel-K_Armor/BNTI_Gzhel-K_Armor_UI</texPath>
+    </graphicData>
+    <statBases>
+      <Mass>8.9</Mass>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>Things/ArmorVest/BNTI_Gzhel-K_Armor/BNTI_Gzhel-K_Armor</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+
+  <!-- == FORT Defender-2 Armor == -->
+  <ThingDef ParentName="EFTArmorC5Base">
+    <defName>JDSTarkov_FORT_Defender-2_Body_Armor</defName>
+    <label>FORT Defender-2 Body Armor</label>
+    <description>Operational kit FORT "Defender-2" - a modification of the popular body armor FORT "Defender" designed for both VIP-persons and for employees of operational combat units.</description>
+    <graphicData>
+      <texPath>Things/ArmorVest/FORT_Defender-2_Body_Armor/FORT_Defender-2_Body_Armor_UI</texPath>
+    </graphicData>
+    <statBases>
+      <Mass>11.5</Mass>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>Things/ArmorVest/FORT_Defender-2_Body_Armor/FORT_Defender-2_Body_Armor</wornGraphicPath>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+    </apparel>
+  </ThingDef>
+
+  <!-- == IOTV Gen4 Armor (Assault Kit) == -->
+  <ThingDef ParentName="EFTArmorC5Base">
+    <defName>JDSTarkov_IOTV_Gen4_ArmorAssaultkit</defName>
+    <label>IOTV Gen4 Armor (Assault kit)</label>
+    <description>The Improved Outer Tactical Vest (IOTV) Gen IV is designed to permit maximum freedom of movement required to assume correct firing positions with the agility to execute and maneuver tasks. Optimal design characteristics ensure the best possible weight distribution of both the ballistic body armor system as well as additional load bearing equipment, thus providing enhanced comfort, wear duration, and mobility.</description>
+    <graphicData>
+      <texPath>Things/ArmorVest/IOTV_Gen4_Armor(Assaultkit)/IOTV_Gen4_Armor(Assaultkit)_UI</texPath>
+    </graphicData>
+    <statBases>
+      <Mass>13</Mass>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>Things/ArmorVest/IOTV_Gen4_Armor(Assaultkit)/IOTV_Gen4_Armor(Assaultkit)</wornGraphicPath>
+      <bodyPartGroups>
+        <li>Neck</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+    </apparel>
+  </ThingDef>
+
+  <!-- == IOTV Gen4 Armor (Full Kit) == -->
+  <ThingDef ParentName="EFTArmorC5Base">
+    <defName>JDSTarkov_IOTV_Gen4_ArmorFullProtection</defName>
+    <label>IOTV Gen4 Armor (Full Protection)</label>
+    <description>The Improved Outer Tactical Vest (IOTV) Gen IV is designed to permit maximum freedom of movement required to assume correct firing positions with the agility to execute and maneuver tasks. Optimal design characteristics ensure the best possible weight distribution of both the ballistic body armor system as well as additional load bearing equipment, thus providing enhanced comfort, wear duration, and mobility.</description>
+    <graphicData>
+      <texPath>Things/ArmorVest/IOTV_Gen4_Armor(FullProtection)/IOTV_Gen4_Armor(FullProtection)_UI</texPath>
+    </graphicData>
+    <statBases>
+      <Mass>15</Mass>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>Things/ArmorVest/IOTV_Gen4_Armor(FullProtection)/IOTV_Gen4_Armor(FullProtection)</wornGraphicPath>
+      <bodyPartGroups>
+        <li>Neck</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+    </apparel>
+  </ThingDef>
+
+  <!-- == FORT Redut T-5 Armor == -->
+  <ThingDef ParentName="EFTArmorC5Base">
+    <defName>JDSTarkov_FORT_Redut-T5_Body_Armor</defName>
+    <label>FORT Redut-T5 Body Armor</label>
+    <description>The FORT "Redut T5" armor vest is a reinforced version of Redut armor series, designed with account of the many years of experience in counter-terrorism operations in Russian Federation.</description>
+    <graphicData>
+      <texPath>Things/ArmorVest/FORT_Redut-T5_Body_Armor/FORT_Redut-T5_Body_Armor_UI</texPath>
+    </graphicData>
+    <statBases>
+      <Mass>15.5</Mass>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>Things/ArmorVest/FORT_Redut-T5_Body_Armor/FORT_Redut-T5_Body_Armor</wornGraphicPath>
+      <bodyPartGroups>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+    </apparel>
+  </ThingDef>
+
+  <!-- === Class 6 === -->
+  <ThingDef Name="EFTArmorC6Base" ParentName="EFTArmorBase" Abstract="True">
+    <statBases>
+      <Bulk>7.5</Bulk>
+      <WornBulk>4.5</WornBulk>
+      <WorkToMake>15500</WorkToMake>
+      <MaxHitPoints>200</MaxHitPoints>
+      <ArmorRating_Sharp>16</ArmorRating_Sharp>
+      <ArmorRating_Blunt>32</ArmorRating_Blunt>
+      <Insulation_Cold>6</Insulation_Cold>
+      <Insulation_Heat>10</Insulation_Heat>
+      <EquipDelay>3</EquipDelay>
+    </statBases>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>12</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <DevilstrandCloth>40</DevilstrandCloth>
+      <Steel>80</Steel>
+      <Plasteel>25</Plasteel>
+    </costList>
+    <apparel>
+      <tags>
+        <li>IndustrialMilitaryAdvanced</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <!-- == LBT 6094A SPC == -->
+  <ThingDef ParentName="EFTArmorC6Base">
+    <defName>JDSTarkov_LBT_6094A_Slick_Plate_Carrier</defName>
+    <label>LBT 6094A Plate Carrier</label>
+    <description>Simple plate carrier by LBT company. The most minimalistic design intended for use with chest rigs.</description>
+    <graphicData>
+      <texPath>Things/ArmorVest/LBT_6094A_Slick_Plate_Carrier/LBT_6094A_Slick_Plate_Carrier_UI</texPath>
+    </graphicData>
+    <statBases>
+      <Mass>8.6</Mass>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>Things/ArmorVest/LBT_6094A_Slick_Plate_Carrier/LBT_6094A_Slick_Plate_Carrier</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+
+  <!-- == 6B43 Zabralo-Sh 6A Armor == -->
+  <ThingDef ParentName="EFTArmorC6Base">
+    <defName>JDSTarkov_6B43_Zabralo-Sh_6A_Armor</defName>
+    <label>6B43 Zabralo-Sh 6A Armor</label>
+    <description>The 6B43 bulletproof vest of 6A protection class (roughly equivalent to class IIIA) is designed for protection from light weapons bullets - including BP and PP - fragments of grenades, mines, and melee weapons, as well as reducing the risk of after-penetration effects during combat situations.</description>
+    <graphicData>
+      <texPath>Things/ArmorVest/6B43_Zabralo-Sh_6A_Armor/6B43_Zabralo-Sh_6A_Armor_UI</texPath>
+    </graphicData>
+    <statBases>
+      <Mass>15</Mass>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>Things/ArmorVest/6B43_Zabralo-Sh_6A_Armor/6B43_Zabralo-Sh_6A_Armor</wornGraphicPath>
+      <bodyPartGroups>
+        <li>Neck</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+    </apparel>
+  </ThingDef>
+
+</Defs>

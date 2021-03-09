@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- === LayerDef === -->
+  <ApparelLayerDef>
+    <defName>EFTBackpack</defName>
+    <label>utility</label>
+    <drawOrder>500</drawOrder>
+  </ApparelLayerDef>
+
+  <!-- === Beanie === -->
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>JDSTarkov_Headwear_Beanie</defName>
+    <label>Beanie</label>
+    <description>Warm knitted hat, traditionally made for skiers but worn by everyone.</description>
+    <graphicData>
+      <texPath>Things/Headwear/Beanie/Beanie_UI</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Cloth>20</Cloth>
+    </costList>
+    <statBases>
+      <Mass>0.7</Mass>
+      <Bulk>1</Bulk>
+      <WornBulk>1</WornBulk>
+      <WorkToMake>1500</WorkToMake>
+      <MaxHitPoints>80</MaxHitPoints>
+      <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.12</ArmorRating_Heat>
+      <Insulation_Cold>12</Insulation_Cold>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <generateCommonality>0.5</generateCommonality>
+    <apparel>
+      <wornGraphicPath>Things/Headwear/Beanie/Beanie</wornGraphicPath>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <layers>
+        <li>MiddleHead</li>
+      </layers>
+      <tags>
+        <li>IndustrialBasic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <!-- === Balaclavas === -->
+  <ThingDef ParentName="HatMakeableBase" Name="EFTBalaclavaBase">
+    <defName>JDSTarkov_Headwear_Balaclava</defName>
+    <label>Balaclava A</label>
+    <description>A balaclava, also known as a balaclava helmet or Bally or ski mask, is a form of cloth headgear designed to expose only part of the face, usually the eyes and mouth.</description>
+    <graphicData>
+      <texPath>Things/FaceMask/Balaclava/Balaclava_UI</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Cloth>20</Cloth>
+    </costList>
+    <statBases>
+      <Mass>0.8</Mass>
+      <Bulk>1</Bulk>
+      <WornBulk>1</WornBulk>
+      <WorkToMake>1800</WorkToMake>
+      <ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+      <Insulation_Heat>0.5</Insulation_Heat>
+      <Insulation_Cold>2</Insulation_Cold>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>Things/FaceMask/Balaclava/Balaclava</wornGraphicPath>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+        <li>Teeth</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OnHead</li>
+      </layers>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="EFTBalaclavaBase">
+    <defName>JDSTarkov_Headwear_Balaclava2_Mask</defName>
+    <label>Balaclava B</label>
+    <graphicData>
+      <texPath>Things/FaceMask/Balaclava2_Mask/Balaclava2_Mask_UI</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/FaceMask/Balaclava2_Mask/Balaclava2_Mask</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="EFTBalaclavaBase">
+    <defName>JDSTarkov_Headwear_Balaclava3_Mask</defName>
+    <label>Balaclava C</label>
+    <graphicData>
+      <texPath>Things/FaceMask/Balaclava3_Mask/Balaclava3_Mask_UI</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/FaceMask/Balaclava3_Mask/Balaclava3_Mask</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="EFTBalaclavaBase">
+    <defName>JDSTarkov_Headwear_Balaclava4_Mask</defName>
+    <label>Balaclava D</label>
+    <graphicData>
+      <texPath>Things/FaceMask/Balaclava4_Mask/Balaclava4_Mask_UI</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/FaceMask/Balaclava4_Mask/Balaclava4_Mask</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="EFTBalaclavaBase">
+    <defName>JDSTarkov_Headwear_Balaclava5_Mask</defName>
+    <label>Balaclava E</label>
+    <graphicData>
+      <texPath>Things/FaceMask/Balaclava5_Mask/Balaclava5_Mask_UI</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/FaceMask/Balaclava5_Mask/Balaclava5_Mask</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="EFTBalaclavaBase">
+    <defName>JDSTarkov_Headwear_Balaclava6_Mask</defName>
+    <label>Balaclava F</label>
+    <graphicData>
+      <texPath>Things/FaceMask/Balaclava6_Mask/Balaclava6_Mask_UI</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/FaceMask/Balaclava6_Mask/Balaclava6_Mask</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="EFTBalaclavaBase">
+    <defName>JDSTarkov_Headwear_Balaclava7_Mask</defName>
+    <label>Balaclava G</label>
+    <graphicData>
+      <texPath>Things/FaceMask/Balaclava7_Mask/Balaclava7_Mask_UI</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/FaceMask/Balaclava7_Mask/Balaclava7_Mask</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+
+  <!-- === Caps === -->
+  <ThingDef ParentName="HatMakeableBase" Name="EFTCapBase">
+    <defName>JDSTarkov_Headwear_Army_Cap</defName>
+    <label>Army Cap</label>
+    <description>A military cap.</description>
+    <graphicData>
+      <texPath>Things/Headwear/Army_Cap/Army_Cap_UI</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Cloth>20</Cloth>
+    </costList>
+    <statBases>
+      <Mass>0.5</Mass>
+      <Bulk>1</Bulk>
+      <WornBulk>1</WornBulk>
+      <WorkToMake>1800</WorkToMake>
+      <ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.035</ArmorRating_Blunt>
+      <Insulation_Heat>0.5</Insulation_Heat>
+      <Insulation_Cold>0.5</Insulation_Cold>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <apparel>
+      <wornGraphicPath>Things/Headwear/Army_Cap/Army_Cap</wornGraphicPath>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialBasic</li>
+        <li>IndustrialMilitaryBasic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="EFTCapBase">
+    <defName>JDSTarkov_Headwear_Baseball_Cap_Black</defName>
+    <label>Baseball Cap (Black)</label>
+    <description>A baseball cap.</description>
+    <graphicData>
+      <texPath>Things/Headwear/Baseball_Cap_Black/Baseball_Cap_Black_UI</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Headwear/Baseball_Cap_Black/Baseball_Cap_Black</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="EFTCapBase">
+    <defName>JDSTarkov_Headwear_Baseball_Cap_Green</defName>
+    <label>Baseball Cap (Green)</label>
+    <description>A baseball cap.</description>
+    <graphicData>
+      <texPath>Things/Headwear/Baseball_Cap_Green/Baseball_Cap_Green_UI</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Headwear/Baseball_Cap_Green/Baseball_Cap_Green</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="EFTCapBase">
+    <defName>JDSTarkov_Headwear_Baseball_Cap_Tan</defName>
+    <label>Baseball Cap (Tan)</label>
+    <description>A baseball cap.</description>
+    <graphicData>
+      <texPath>Things/Headwear/Baseball_Cap_Ten/Baseball_Cap_Tan_UI</texPath>
+    </graphicData>
+    <apparel>
+      <wornGraphicPath>Things/Headwear/Baseball_Cap_Ten/Baseball_Cap_Tan</wornGraphicPath>
+    </apparel>
+  </ThingDef>
+
+  <!-- === Ushanka === -->
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>JDSTarkov_Headwear_Ushanka_Cap</defName>
+    <label>Ushanka</label>
+    <description>An extremely warm hat with ear coverings, perfect for long cold exposure in winter times.</description>
+    <graphicData>
+      <texPath>Things/Headwear/Ushanka_Cap/Ushanka_Cap_UI</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Cloth>35</Cloth>
+    </costList>
+    <statBases>
+      <Mass>0.7</Mass>
+      <Bulk>2.5</Bulk>
+      <WornBulk>1.5</WornBulk>
+      <WorkToMake>2200</WorkToMake>
+      <ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+      <Insulation_Cold>15</Insulation_Cold>
+      <EquipDelay>0.8</EquipDelay>
+    </statBases>
+    <generateCommonality>0.5</generateCommonality>
+    <apparel>
+      <wornGraphicPath>Things/Headwear/Ushanka_Cap/Ushanka_Cap</wornGraphicPath>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>IndustrialBasic</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+</Defs>
