@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <!-- === LayerDef === -->
+  <ApparelLayerDef>
+    <defName>EFTBackpack</defName>
+    <label>utility</label>
+    <drawOrder>500</drawOrder>
+  </ApparelLayerDef>
+
   <!-- === Small Packs === -->
 
   <!-- == Tactical Sling Bag == -->
-  <ThingDef ParentName="ApparelCarryGearBase" Name="EFTSmallBase">
+  <ThingDef Name="EFTSmallBase" ParentName="ApparelCarryGearBase">
     <defName>JDSTarkov_Backpack_TacticalSling</defName>
     <label>Tactical Sling Bag</label>
     <description>An original sling bag for everyday wear or for active rest.</description>
@@ -12,6 +19,9 @@
       <texPath>Things/Backpack/Tactical_Sling_Bag/Tactical_Sling_Bag_UI</texPath>
       <graphicClass>Graphic_Single</graphicClass> 	  
     </graphicData>
+    <thingCategories>
+      <li>EFTBackpacksSmall</li>
+    </thingCategories>
     <costList>
       <Cloth>25</Cloth>
     </costList>
@@ -64,7 +74,7 @@
       </bodyPartGroups>
       <layers>
         <li>Backpack</li>
-        <li>Belt</li>
+        <li>EFTBackpack</li>
       </layers>
       <tags>
         <li>IndustrialBasic</li>
@@ -238,7 +248,7 @@
   <!-- === Medium Packs === -->
   
   <!-- == Ana tactical Beta 2 battle backpack == -->
-  <ThingDef ParentName="ApparelCarryGearBase" Name="EFTMediumBase">
+  <ThingDef Name="EFTMediumBase" ParentName="ApparelCarryGearBase">
     <defName>JDSTarkov_Backpack_Beta2Bag</defName>
     <label>Ana Tactical Beta 2 Backpack</label>
     <description>A lightweight and capacious backpack from Ana Tactical. Specially designed for use in dynamic conditions and on rough terrain.</description>
@@ -246,6 +256,9 @@
       <texPath>Things/Backpack/Ana_Tactical_Beta2_Backpack/Ana_Tactical_Beta2_Backpack_UI</texPath>
       <graphicClass>Graphic_Single</graphicClass> 	  
     </graphicData>
+    <thingCategories>
+      <li>EFTBackpacksMedium</li>
+    </thingCategories>
     <costList>
       <Cloth>40</Cloth>
     </costList>
@@ -298,7 +311,7 @@
       </bodyPartGroups>
       <layers>
         <li>Backpack</li>
-        <li>Belt</li>
+        <li>EFTBackpack</li>
       </layers>
       <tags>
         <li>IndustrialBasic</li>
@@ -674,7 +687,7 @@
   <!-- === Large Packs === -->
 
   <!-- == Eberlestock F4 Terminator == -->
-  <ThingDef ParentName="ApparelCarryGearBase" Name="EFTLargeBase">
+  <ThingDef Name="EFTLargeBase" ParentName="ApparelCarryGearBase">
     <defName>JDSTarkov_Backpack_F4Bag</defName>
     <label>Eberlestock F4 Terminator Backpack</label>
     <description>Extremely versatile full-format load bearing backpack for military use., Name: Eberlestock F4 Terminator load bearing backpack.</description>
@@ -682,6 +695,9 @@
       <texPath>Things/Backpack/Eberlestock_F4_Terminator_Backpack/Eberlestock_F4_Terminator_Backpack_UI</texPath>
       <graphicClass>Graphic_Single</graphicClass> 	  
     </graphicData>
+    <thingCategories>
+      <li>EFTBackpacksLarge</li>
+    </thingCategories>
     <costList>
       <Cloth>60</Cloth>
     </costList>
@@ -734,7 +750,7 @@
       </bodyPartGroups>
       <layers>
         <li>Backpack</li>
-        <li>Belt</li>
+        <li>EFTBackpack</li>
       </layers>
       <tags>
         <li>IndustrialBasic</li>

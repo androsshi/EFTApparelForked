@@ -4,7 +4,7 @@
   <!-- === Class 1 === -->
 
   <!-- == Soft Tank Crew == -->
-  <ThingDef ParentName="ArmorHelmetMakeableBase" Name="EFTHelmetC1Base">
+  <ThingDef Name="EFTHelmetC1Base" ParentName="ArmorHelmetMakeableBase">
     <defName>JDSTarkov_Headgear_Soft_Tank_Crew</defName>
     <label>Soft Tank Crew</label>
     <description>Tank headset TSh-4M-L (Z) -01 is designed to provide two-way radiotelephone communication in objects with a high level of noise, to protect it from climatic factors and from impacts on structural elements of objects.</description>
@@ -12,6 +12,9 @@
       <texPath>Things/Headgear/Soft_Tank_Crew/Soft_Tank_Crew_UI</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <thingCategories>
+      <li>EFTHeadgearArmorC1</li>
+    </thingCategories>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
     </recipeMaker>
@@ -93,7 +96,7 @@
   <!-- === Class 2 === -->
 
   <!-- == Kolpak-1S Riot Helmet == -->
-  <ThingDef ParentName="ArmorHelmetMakeableBase" Name="EFTHelmetC2Base">
+  <ThingDef Name="EFTHelmetC2Base" ParentName="ArmorHelmetMakeableBase">
     <defName>JDSTarkov_Headgear_Kolpak-1S_Riot_Helmet</defName>
     <label>Kolpak-1S Riot Helmet</label>
     <description>Kolpak-1S protects the head from the cold piercing-cutting weapons in a special class of protection GOST R50744-95, from fragmentation with an energy of impact up to 50 J.</description>
@@ -101,6 +104,9 @@
       <texPath>Things/Headgear/Kolpak-1S_Riot_Helmet/Kolpak-1S_Riot_Helmet_UI</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <thingCategories>
+      <li>EFTHeadgearArmorC2</li>
+    </thingCategories>
     <recipeMaker>
       <researchPrerequisite>FlakArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -235,7 +241,7 @@
   <!-- === Class 3 === -->
 
   <!-- == UNTAR Helmet == -->
-  <ThingDef ParentName="ArmorHelmetMakeableBase" Name="EFTHelmetC3Base">
+  <ThingDef Name="EFTHelmetC3Base" ParentName="ArmorHelmetMakeableBase">
     <defName>JDSTarkov_Headgear_UNTAR_Helmet</defName>
     <label>UNTAR Helmet</label>
     <description>The standard issue helmet of the UNTAR mission in Tarkov.</description>
@@ -243,6 +249,9 @@
       <texPath>Things/Headgear/UNTAR_Helmet/UNTAR_Helmet_UI</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <thingCategories>
+      <li>EFTHeadgearArmorC3</li>
+    </thingCategories>
     <recipeMaker>
       <researchPrerequisite>FlakArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -407,7 +416,7 @@
   <!-- === Class 4 === -->
 
   <!-- == MSA TC-800 Helmet == -->
-  <ThingDef ParentName="ArmorHelmetMakeableBase" Name="EFTHelmetC4Base">
+  <ThingDef Name="EFTHelmetC4Base" ParentName="ArmorHelmetMakeableBase">
     <defName>JDSTarkov_Headgear_MSA_TC_800_Helmet</defName>
     <label>MSA TC-800 Helmet</label>
     <description>Ballistic helmet MSA TC 800, designed for use by tactical teams of police special forces, in combat and reconnaissance operations. It can be modified by various components.</description>
@@ -415,6 +424,9 @@
       <texPath>Things/Headgear/MSA_TC-800_Helmet/MSA_TC-800_Helmet_UI</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <thingCategories>
+      <li>EFTHeadgearArmorC4</li>
+    </thingCategories>
     <recipeMaker>
       <researchPrerequisite>FlakArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -819,7 +831,7 @@
   <!-- === Class 5 === -->
 
   <!-- == Altyn Helmet == -->
-  <ThingDef ParentName="ArmorHelmetMakeableBase" Name="EFTHelmetC5Base">
+  <ThingDef Name="EFTHelmetC5Base" ParentName="ArmorHelmetMakeableBase">
     <defName>JDSTarkov_Headgear_Altyn_Helmet</defName>
     <label>Altyn Helmet</label>
     <description>"Altyn" passed real combat tests in Afghanistan and Chechnya and is still in service with the Ministry of Internal Affairs of the Russian Federation and the army special forces.</description>
@@ -827,6 +839,9 @@
       <texPath>Things/Headgear/Altyn_Helmet/Altyn_Helmet_UI</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <thingCategories>
+      <li>EFTHeadgearArmorC5</li>
+    </thingCategories>
     <recipeMaker>
       <researchPrerequisite>FlakArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -955,7 +970,7 @@
   <!-- === Class 6 === -->
 
   <!-- == Vulkan-5 Helmet == -->
-  <ThingDef ParentName="ArmorHelmetMakeableBase" Name="EFTHelmetC6Base">
+  <ThingDef Name="EFTHelmetC6Base" ParentName="ArmorHelmetMakeableBase">
     <defName>JDSTarkov_Headgear_Vulkan-5_Heavy_Helmet</defName>
     <label>Vulkan-5 Helmet</label>
     <description>Heavy helmet with a high level of protection. The Vulkan-5 is intended for use in a set of combat equipment with circular 6-class head protection from medium to heavy projectiles.</description>
@@ -963,6 +978,9 @@
       <texPath>Things/Headgear/Vulkan-5_Heavy_Helmet/Vulkan-5_Heavy_Helmet_UI</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <thingCategories>
+      <li>EFTHeadgearArmorC6</li>
+    </thingCategories>
     <recipeMaker>
       <researchPrerequisite>FlakArmor</researchPrerequisite>
       <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -1005,7 +1023,7 @@
   </ThingDef>
 
   <!-- == Vulkan-5 Helmet (Visor) == -->
-  <ThingDef ParentName="EFTHelmetC5Base">
+  <ThingDef ParentName="EFTHelmetC6Base">
     <defName>JDSTarkov_Headgear_Vulkan-5_Heavy_Helmet_Shield</defName>
     <label>Vulkan-5 Helmet (Visor)</label>
     <graphicData>

@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- === LayerDef === -->
-  <ApparelLayerDef>
-    <defName>EFTBackpack</defName>
-    <label>utility</label>
-    <drawOrder>500</drawOrder>
-  </ApparelLayerDef>
-
   <!-- === Beanie === -->
   <ThingDef ParentName="HatMakeableBase">
     <defName>JDSTarkov_Headwear_Beanie</defName>
@@ -17,6 +10,9 @@
       <texPath>Things/Headwear/Beanie/Beanie_UI</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <thingCategories>
+      <li>EFTHeadgearVanity</li>
+    </thingCategories>
     <costList>
       <Cloth>20</Cloth>
     </costList>
@@ -60,6 +56,9 @@
       <texPath>Things/FaceMask/Balaclava/Balaclava_UI</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <thingCategories>
+      <li>EFTHeadgearVanity</li>
+    </thingCategories>
     <costList>
       <Cloth>20</Cloth>
     </costList>
@@ -167,6 +166,9 @@
       <texPath>Things/Headwear/Army_Cap/Army_Cap_UI</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <thingCategories>
+      <li>EFTHeadgearVanity</li>
+    </thingCategories>
     <costList>
       <Cloth>20</Cloth>
     </costList>
@@ -245,6 +247,9 @@
       <texPath>Things/Headwear/Ushanka_Cap/Ushanka_Cap_UI</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <thingCategories>
+      <li>EFTHeadgearVanity</li>
+    </thingCategories>
     <costList>
       <Cloth>35</Cloth>
     </costList>

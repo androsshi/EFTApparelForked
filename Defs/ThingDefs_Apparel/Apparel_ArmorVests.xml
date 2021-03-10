@@ -6,14 +6,11 @@
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <thingCategories>
-      <li>ApparelArmor</li>
-    </thingCategories>
     <recipeMaker>
       <researchPrerequisite>FlakArmor</researchPrerequisite>
     </recipeMaker>
     <apparel>
-       <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
@@ -33,6 +30,9 @@
 
   <!-- === Class 2 === -->
   <ThingDef Name="EFTArmorC2Base" ParentName="EFTArmorBase" Abstract="True">
+    <thingCategories>
+      <li>EFTArmorVestsC2</li>
+    </thingCategories>
     <statBases>
       <Bulk>4.5</Bulk>
       <WornBulk>2</WornBulk>
@@ -104,6 +104,9 @@
 
   <!-- === Class 3 === -->
   <ThingDef Name="EFTArmorC3Base" ParentName="EFTArmorBase" Abstract="True">
+    <thingCategories>
+      <li>EFTArmorVestsC3</li>
+    </thingCategories>
     <statBases>
       <Bulk>6.5</Bulk>
       <WornBulk>3</WornBulk>
@@ -194,6 +197,9 @@
 
   <!-- === Class 4 === -->
   <ThingDef Name="EFTArmorC4Base" ParentName="EFTArmorBase" Abstract="True">
+    <thingCategories>
+      <li>EFTArmorVestsC4</li>
+    </thingCategories>
     <statBases>
       <Bulk>7</Bulk>
       <WornBulk>3</WornBulk>
@@ -271,6 +277,9 @@
 
   <!-- === Class 5 === -->
   <ThingDef Name="EFTArmorC5Base" ParentName="EFTArmorBase" Abstract="True">
+    <thingCategories>
+      <li>EFTArmorVestsC5</li>
+    </thingCategories>
     <statBases>
       <Bulk>7.5</Bulk>
       <WornBulk>4</WornBulk>
@@ -450,6 +459,9 @@
 
   <!-- === Class 6 === -->
   <ThingDef Name="EFTArmorC6Base" ParentName="EFTArmorBase" Abstract="True">
+    <thingCategories>
+      <li>EFTArmorVestsC6</li>
+    </thingCategories>
     <statBases>
       <Bulk>7.5</Bulk>
       <WornBulk>4.5</WornBulk>

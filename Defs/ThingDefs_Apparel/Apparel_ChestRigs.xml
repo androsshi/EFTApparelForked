@@ -52,6 +52,9 @@
     <graphicData>
       <texPath>Things/ChestRigs/6B5-16_Zh-86/6B5-16_Zh-86_UI</texPath>
     </graphicData>
+    <thingCategories>
+      <li>EFTChestRigArmorC3</li>
+    </thingCategories>
     <statBases>
       <Mass>7.1</Mass>
     </statBases>
@@ -75,6 +78,9 @@
     <graphicData>
       <texPath>Things/ChestRigs/6B3TM-01M/6B3TM-01M_UI</texPath>
     </graphicData>
+    <thingCategories>
+      <li>EFTChestRigArmorC4</li>
+    </thingCategories>
     <statBases>
       <Mass>9.2</Mass>
     </statBases>
@@ -98,6 +104,9 @@
     <graphicData>
       <texPath>Things/ChestRigs/6B5-15_Zh-86/6B5-15_Zh-86_UI</texPath>
     </graphicData>
+    <thingCategories>
+      <li>EFTChestRigArmorC4</li>
+    </thingCategories>
     <statBases>
       <Mass>10.2</Mass>
     </statBases>
@@ -121,6 +130,9 @@
     <graphicData>
       <texPath>Things/ChestRigs/ANA_Tactical_M2/ANA_Tactical_M2_UI</texPath>
     </graphicData>
+    <thingCategories>
+      <li>EFTChestRigArmorC4</li>
+    </thingCategories>
     <statBases>
       <Mass>7</Mass>
     </statBases>
@@ -144,6 +156,9 @@
     <graphicData>
       <texPath>Things/ChestRigs/ANA_Tactical_M1/ANA_Tactical_M1_UI</texPath>
     </graphicData>
+    <thingCategories>
+      <li>EFTChestRigArmorC4</li>
+    </thingCategories>
     <statBases>
       <Mass>8.3</Mass>
     </statBases>
@@ -167,6 +182,9 @@
     <graphicData>
       <texPath>Things/ChestRigs/Crye_Precision_AVS/Crye_Precision_AVS_UI</texPath>
     </graphicData>
+    <thingCategories>
+      <li>EFTChestRigArmorC4</li>
+    </thingCategories>
     <statBases>
       <Mass>8.7</Mass>
     </statBases>
@@ -190,6 +208,9 @@
     <graphicData>
       <texPath>Things/ChestRigs/Ars_Arma_A18_Skanda/Ars_Arma_A18_Skanda_UI</texPath>
     </graphicData>
+    <thingCategories>
+      <li>EFTChestRigArmorC4</li>
+    </thingCategories>
     <statBases>
       <Mass>8.2</Mass>
     </statBases>
@@ -213,6 +234,9 @@
     <graphicData>
       <texPath>Things/ChestRigs/Wartech_TV-110/Wartech_TV-110_UI</texPath>
     </graphicData>
+    <thingCategories>
+      <li>EFTChestRigArmorC4</li>
+    </thingCategories>
     <statBases>
       <Mass>10</Mass>
     </statBases>
@@ -233,6 +257,9 @@
     <graphicData>
       <texPath>Things/ChestRigs/5_11_Tactec_plate_carrier/5_11_Tactec_plate_carrier_UI</texPath>
     </graphicData>
+    <thingCategories>
+      <li>EFTChestRigArmorC5</li>
+    </thingCategories>
     <statBases>
       <Mass>9</Mass>
       <ArmorRating_Sharp>16</ArmorRating_Sharp>
@@ -258,6 +285,9 @@
     <graphicData>
       <texPath>Things/ChestRigs/Ars_Arma_CPC_MOD_2/Ars_Arma_CPC_MOD_2_UI</texPath>
     </graphicData>
+    <thingCategories>
+      <li>EFTChestRigArmorC5</li>
+    </thingCategories>
     <statBases>
       <Mass>9</Mass>
       <ArmorRating_Sharp>16</ArmorRating_Sharp>
@@ -281,6 +311,9 @@
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <thingCategories>
+      <li>EFTChestRigLoad</li>
+    </thingCategories>
     <statBases>
       <WorkToMake>9000</WorkToMake>
       <MaxHitPoints>120</MaxHitPoints>

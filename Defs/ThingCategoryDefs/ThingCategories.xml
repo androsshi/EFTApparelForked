@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Apparel -->
+  <ThingCategoryDef>
+    <defName>EFTGear</defName>
+    <label>EFT Apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>EFTArmorVests</defName>
+    <label>armor vests</label>
+    <parent>EFTGear</parent>
+  </ThingCategoryDef>
+  
+    <ThingCategoryDef>
+      <defName>EFTArmorVestsC2</defName>
+      <label>class 2</label>
+      <parent>EFTArmorVests</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>EFTArmorVestsC3</defName>
+      <label>class 3</label>
+      <parent>EFTArmorVests</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>EFTArmorVestsC4</defName>
+      <label>class 4</label>
+      <parent>EFTArmorVests</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>EFTArmorVestsC5</defName>
+      <label>class 5</label>
+      <parent>EFTArmorVests</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>EFTArmorVestsC6</defName>
+      <label>class 6</label>
+      <parent>EFTArmorVests</parent>
+    </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>EFTBackpacks</defName>
+    <label>backpacks</label>
+    <parent>EFTGear</parent>
+  </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>EFTBackpacksSmall</defName>
+      <label>small</label>
+      <parent>EFTBackpacks</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>EFTBackpacksMedium</defName>
+      <label>medium</label>
+      <parent>EFTBackpacks</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>EFTBackpacksLarge</defName>
+      <label>large</label>
+      <parent>EFTBackpacks</parent>
+    </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>EFTChestRigs</defName>
+    <label>chest rigs</label>
+    <parent>EFTGear</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>EFTChestRigArmor</defName>
+    <label>armored</label>
+    <parent>EFTChestRigs</parent>
+  </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>EFTChestRigArmorC3</defName>
+      <label>class 3</label>
+      <parent>EFTChestRigArmor</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>EFTChestRigArmorC4</defName>
+      <label>class 4</label>
+      <parent>EFTChestRigArmor</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>EFTChestRigArmorC5</defName>
+      <label>class 5</label>
+      <parent>EFTChestRigArmor</parent>
+    </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>EFTChestRigLoad</defName>
+    <label>unarmored</label>
+    <parent>EFTChestRigs</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>EFTHeadgear</defName>
+    <label>headgear</label>
+    <parent>EFTGear</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>EFTHeadgearArmor</defName>
+    <label>armored</label>
+    <parent>EFTHeadgear</parent>
+  </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>EFTHeadgearArmorC1</defName>
+      <label>class 1</label>
+      <parent>EFTHeadgearArmor</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>EFTHeadgearArmorC2</defName>
+      <label>class 2</label>
+      <parent>EFTHeadgearArmor</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>EFTHeadgearArmorC3</defName>
+      <label>class 3</label>
+      <parent>EFTHeadgearArmor</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>EFTHeadgearArmorC4</defName>
+      <label>class 4</label>
+      <parent>EFTHeadgearArmor</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>EFTHeadgearArmorC5</defName>
+      <label>class 5</label>
+      <parent>EFTHeadgearArmor</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+      <defName>EFTHeadgearArmorC6</defName>
+      <label>class 6</label>
+      <parent>EFTHeadgearArmor</parent>
+    </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>EFTHeadgearVanity</defName>
+    <label>vanity</label>
+    <parent>EFTHeadgear</parent>
+  </ThingCategoryDef>
+
+</Defs>
