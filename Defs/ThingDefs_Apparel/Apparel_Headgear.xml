@@ -2,7 +2,7 @@
 <Defs>
 
   <!-- === Beanie === -->
-  <ThingDef ParentName="HatMakeableBase">
+  <ThingDef ParentName="ApparelMakeableBase">
     <defName>JDSTarkov_Headwear_Beanie</defName>
     <label>Beanie</label>
     <description>Warm knitted hat, traditionally made for skiers but worn by everyone.</description>
@@ -48,7 +48,7 @@
   </ThingDef>
 
   <!-- === Balaclavas === -->
-  <ThingDef ParentName="HatMakeableBase" Name="EFTBalaclavaBase">
+  <ThingDef Name="EFTBalaclavaBase" ParentName="ApparelMakeableBase">
     <defName>JDSTarkov_Headwear_Balaclava</defName>
     <label>Balaclava A</label>
     <description>A balaclava, also known as a balaclava helmet or Bally or ski mask, is a form of cloth headgear designed to expose only part of the face, usually the eyes and mouth.</description>
@@ -158,7 +158,7 @@
   </ThingDef>
 
   <!-- === Caps === -->
-  <ThingDef ParentName="HatMakeableBase" Name="EFTCapBase">
+  <ThingDef Name="EFTCapBase" ParentName="ApparelMakeableBase">
     <defName>JDSTarkov_Headwear_Army_Cap</defName>
     <label>Army Cap</label>
     <description>A military cap.</description>
@@ -239,7 +239,7 @@
   </ThingDef>
 
   <!-- === Ushanka === -->
-  <ThingDef ParentName="HatMakeableBase">
+  <ThingDef ParentName="ApparelMakeableBase">
     <defName>JDSTarkov_Headwear_Ushanka_Cap</defName>
     <label>Ushanka</label>
     <description>An extremely warm hat with ear coverings, perfect for long cold exposure in winter times.</description>

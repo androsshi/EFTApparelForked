@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- === LayerDef === -->
-  <ApparelLayerDef>
-    <defName>EFTBackpack</defName>
-    <label>utility</label>
-    <drawOrder>500</drawOrder>
-  </ApparelLayerDef>
-
   <!-- === Small Packs === -->
 
   <!-- == Tactical Sling Bag == -->
@@ -19,7 +12,7 @@
       <texPath>Things/Backpack/Tactical_Sling_Bag/Tactical_Sling_Bag_UI</texPath>
       <graphicClass>Graphic_Single</graphicClass> 	  
     </graphicData>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>EFTBackpacksSmall</li>
     </thingCategories>
     <costList>
@@ -74,7 +67,7 @@
       </bodyPartGroups>
       <layers>
         <li>Backpack</li>
-        <li>EFTBackpack</li>
+        <li>Belt</li>
       </layers>
       <tags>
         <li>IndustrialBasic</li>
@@ -256,7 +249,7 @@
       <texPath>Things/Backpack/Ana_Tactical_Beta2_Backpack/Ana_Tactical_Beta2_Backpack_UI</texPath>
       <graphicClass>Graphic_Single</graphicClass> 	  
     </graphicData>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>EFTBackpacksMedium</li>
     </thingCategories>
     <costList>
@@ -311,7 +304,7 @@
       </bodyPartGroups>
       <layers>
         <li>Backpack</li>
-        <li>EFTBackpack</li>
+        <li>Belt</li>
       </layers>
       <tags>
         <li>IndustrialBasic</li>
@@ -695,7 +688,7 @@
       <texPath>Things/Backpack/Eberlestock_F4_Terminator_Backpack/Eberlestock_F4_Terminator_Backpack_UI</texPath>
       <graphicClass>Graphic_Single</graphicClass> 	  
     </graphicData>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>EFTBackpacksLarge</li>
     </thingCategories>
     <costList>
@@ -750,7 +743,7 @@
       </bodyPartGroups>
       <layers>
         <li>Backpack</li>
-        <li>EFTBackpack</li>
+        <li>Belt</li>
       </layers>
       <tags>
         <li>IndustrialBasic</li>

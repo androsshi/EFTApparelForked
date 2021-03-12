@@ -311,7 +311,7 @@
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>EFTChestRigLoad</li>
     </thingCategories>
     <statBases>

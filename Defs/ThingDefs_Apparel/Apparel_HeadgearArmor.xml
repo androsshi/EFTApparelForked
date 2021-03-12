@@ -12,7 +12,7 @@
       <texPath>Things/Headgear/Soft_Tank_Crew/Soft_Tank_Crew_UI</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>EFTHeadgearArmorC1</li>
     </thingCategories>
     <recipeMaker>
@@ -104,7 +104,7 @@
       <texPath>Things/Headgear/Kolpak-1S_Riot_Helmet/Kolpak-1S_Riot_Helmet_UI</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>EFTHeadgearArmorC2</li>
     </thingCategories>
     <recipeMaker>
@@ -249,7 +249,7 @@
       <texPath>Things/Headgear/UNTAR_Helmet/UNTAR_Helmet_UI</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>EFTHeadgearArmorC3</li>
     </thingCategories>
     <recipeMaker>
@@ -424,7 +424,7 @@
       <texPath>Things/Headgear/MSA_TC-800_Helmet/MSA_TC-800_Helmet_UI</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>EFTHeadgearArmorC4</li>
     </thingCategories>
     <recipeMaker>
@@ -839,7 +839,7 @@
       <texPath>Things/Headgear/Altyn_Helmet/Altyn_Helmet_UI</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>EFTHeadgearArmorC5</li>
     </thingCategories>
     <recipeMaker>
@@ -978,7 +978,7 @@
       <texPath>Things/Headgear/Vulkan-5_Heavy_Helmet/Vulkan-5_Heavy_Helmet_UI</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <thingCategories>
+    <thingCategories Inherit="False">
       <li>EFTHeadgearArmorC6</li>
     </thingCategories>
     <recipeMaker>
