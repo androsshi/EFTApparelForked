@@ -86,6 +86,7 @@
       <layers>
         <li>Overhead</li>
         <li>MiddleHead</li>
+        <li>StrappedHead</li>
       </layers>
       <tags>
         <li>IndustrialMilitaryBasic</li>
@@ -162,6 +163,7 @@
       <layers>
         <li>Overhead</li>
         <li>MiddleHead</li>
+        <li>StrappedHead</li>
       </layers>
     </apparel>
   </ThingDef>
@@ -201,6 +203,7 @@
       <layers>
         <li>Overhead</li>
         <li>MiddleHead</li>
+        <li>StrappedHead</li>
       </layers>
     </apparel>
   </ThingDef>
@@ -234,6 +237,7 @@
       <layers>
         <li>Overhead</li>
         <li>MiddleHead</li>
+        <li>StrappedHead</li>
       </layers>
     </apparel>
   </ThingDef>
@@ -377,6 +381,7 @@
       <layers>
         <li>Overhead</li>
         <li>MiddleHead</li>
+        <li>StrappedHead</li>
       </layers>
     </apparel>
   </ThingDef>
@@ -435,17 +440,17 @@
       </skillRequirements>
     </recipeMaker>
     <costList>
-      <DevilstrandCloth>20</DevilstrandCloth>
-      <Steel>50</Steel>
+      <DevilstrandCloth>15</DevilstrandCloth>
+      <Steel>35</Steel>
     </costList>
     <statBases>
       <Mass>1.2</Mass>
       <Bulk>3</Bulk>
       <WornBulk>1</WornBulk>
       <WorkToMake>7000</WorkToMake>
-      <ArmorRating_Sharp>6</ArmorRating_Sharp>
-      <ArmorRating_Blunt>10</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.45</ArmorRating_Heat>
+      <ArmorRating_Sharp>8</ArmorRating_Sharp>
+      <ArmorRating_Blunt>12</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.54</ArmorRating_Heat>
       <Insulation_Cold>0.50</Insulation_Cold>
       <Insulation_Heat>0.02</Insulation_Heat>
       <EquipDelay>1</EquipDelay>
@@ -583,6 +588,7 @@
       <layers>
         <li>Overhead</li>
         <li>MiddleHead</li>
+        <li>StrappedHead</li>
       </layers>
     </apparel>
   </ThingDef>
@@ -622,6 +628,7 @@
       <layers>
         <li>Overhead</li>
         <li>MiddleHead</li>
+        <li>StrappedHead</li>
       </layers>
     </apparel>
   </ThingDef>
@@ -645,6 +652,7 @@
       <layers>
         <li>Overhead</li>
         <li>MiddleHead</li>
+        <li>StrappedHead</li>
       </layers>
     </apparel>
   </ThingDef>
@@ -691,6 +699,7 @@
       <layers>
         <li>Overhead</li>
         <li>MiddleHead</li>
+        <li>StrappedHead</li>
       </layers>
     </apparel>
   </ThingDef>
@@ -746,6 +755,7 @@
       <layers>
         <li>Overhead</li>
         <li>MiddleHead</li>
+        <li>StrappedHead</li>
       </layers>
     </apparel>
   </ThingDef>
@@ -769,6 +779,7 @@
       <layers>
         <li>Overhead</li>
         <li>MiddleHead</li>
+        <li>StrappedHead</li>
       </layers>
     </apparel>
   </ThingDef>
@@ -808,6 +819,7 @@
       <layers>
         <li>Overhead</li>
         <li>MiddleHead</li>
+        <li>StrappedHead</li>
       </layers>
     </apparel>
   </ThingDef>
@@ -850,18 +862,18 @@
       </skillRequirements>
     </recipeMaker>
     <costList>
-      <DevilstrandCloth>25</DevilstrandCloth>
-      <Plasteel>50</Plasteel>
+      <DevilstrandCloth>10</DevilstrandCloth>
+      <Plasteel>30</Plasteel>
     </costList>
     <statBases>
       <Mass>4</Mass>
       <Bulk>4.5</Bulk>
       <WornBulk>1.5</WornBulk>
       <WorkToMake>10000</WorkToMake>
-      <MaxHitPoints>150</MaxHitPoints>
-      <ArmorRating_Sharp>6</ArmorRating_Sharp>
-      <ArmorRating_Blunt>13</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.6</ArmorRating_Heat>
+      <MaxHitPoints>125</MaxHitPoints>
+      <ArmorRating_Sharp>8</ArmorRating_Sharp>
+      <ArmorRating_Blunt>16</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.64</ArmorRating_Heat>
       <Insulation_Cold>0.50</Insulation_Cold>
       <Insulation_Heat>0.02</Insulation_Heat>
       <EquipDelay>1.5</EquipDelay>
@@ -899,6 +911,7 @@
       <layers>
         <li>Overhead</li>
         <li>MiddleHead</li>
+        <li>StrappedHead</li>
       </layers>
     </apparel>
   </ThingDef>
@@ -950,6 +963,7 @@
       <layers>
         <li>Overhead</li>
         <li>MiddleHead</li>
+        <li>StrappedHead</li>
       </layers>
     </apparel>
   </ThingDef>
@@ -989,17 +1003,18 @@
       </skillRequirements>
     </recipeMaker>
     <costList>
-      <DevilstrandCloth>30</DevilstrandCloth>
-      <Plasteel>50</Plasteel>
+      <DevilstrandCloth>15</DevilstrandCloth>
+      <Plasteel>35</Plasteel>
     </costList>
     <statBases>
       <Mass>4.5</Mass>
       <Bulk>5</Bulk>
       <WornBulk>2</WornBulk>
       <WorkToMake>14500</WorkToMake>
+      <MaxHitPoints>150</MaxHitPoints>
       <ArmorRating_Sharp>10</ArmorRating_Sharp>
       <ArmorRating_Blunt>22</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.6</ArmorRating_Heat>
+      <ArmorRating_Heat>0.74</ArmorRating_Heat>
       <Insulation_Cold>0.50</Insulation_Cold>
       <Insulation_Heat>0.02</Insulation_Heat>
       <EquipDelay>1.5</EquipDelay>
@@ -1037,6 +1052,7 @@
       <layers>
         <li>Overhead</li>
         <li>MiddleHead</li>
+        <li>StrappedHead</li>
       </layers>
     </apparel>
   </ThingDef>
