@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<packageId>Andross.EFT.Apparel</packageId>
-	<name>[ADS] EFT Apparel - Forked</name>
+	<name>[JDS] EFT Apparel - Forked</name>
 	<author>Andross</author>
 	<supportedVersions>
-		<li>1.2</li>
+		<li>1.3</li>
 	</supportedVersions>
 	<description>This mod adds Escape From Tarkov (EFT) apparel.\n\nOriginal Author: JangoD'Soul</description>
 	<modDependencies>

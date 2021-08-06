@@ -977,7 +977,7 @@
       <texPath>Things/Headgear/Rys-T_Helmet_up_Shield/Rys-T_Helmet_up_Shield_UI</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Headgear/Rys-T_Helmet/Rys-T_Helmet</wornGraphicPath>
+      <wornGraphicPath>Things/Headgear/Rys-T_Helmet/Rys-T_Helmet_up_Shield</wornGraphicPath>
     </apparel>
   </ThingDef>
 

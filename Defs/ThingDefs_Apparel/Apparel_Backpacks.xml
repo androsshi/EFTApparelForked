@@ -63,11 +63,9 @@
       <wearPerDay>0</wearPerDay>
       <bodyPartGroups>
         <li>Shoulders</li>
-        <li>Waist</li>
       </bodyPartGroups>
       <layers>
         <li>Backpack</li>
-        <li>Belt</li>
       </layers>
       <tags>
         <li>IndustrialBasic</li>
@@ -300,11 +298,9 @@
       <wearPerDay>0</wearPerDay>
       <bodyPartGroups>
         <li>Shoulders</li>
-        <li>Waist</li>
       </bodyPartGroups>
       <layers>
         <li>Backpack</li>
-        <li>Belt</li>
       </layers>
       <tags>
         <li>IndustrialBasic</li>
@@ -739,16 +735,11 @@
       <wearPerDay>0</wearPerDay>
       <bodyPartGroups>
         <li>Shoulders</li>
-        <li>Waist</li>
       </bodyPartGroups>
       <layers>
         <li>Backpack</li>
-        <li>Belt</li>
       </layers>
-      <tags>
-        <li>IndustrialBasic</li>
-        <li>IndustrialMilitaryBasic</li>
-      </tags>
+      <tags Inherit="False"/>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
