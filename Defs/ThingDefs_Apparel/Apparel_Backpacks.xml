@@ -165,7 +165,7 @@
       <texPath>Things/Backpack/Wartech_Berkut_Backpack/Wartech_Berkut_Backpack_UI</texPath>	  
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/Backpack/Wartech_Berkut_Backpack/Wartech_Berkut_Backpack</wornGraphicPath>
+      <wornGraphicPath>Things/Backpack/Oakley_Mechanism_Backpack/Oakley_Mechanism_Backpack</wornGraphicPath>
       <wornGraphicData>
         <east>
           <offset>(-0.35,-0.05)</offset> <!-- // (x,y) //--> 
